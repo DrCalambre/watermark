@@ -139,12 +139,6 @@ for IMAGEN in "$DIRECTORIO_IMAGENES"/*; do
         # Aplicar marca de agua al pie de la imagen con margen inferior centrado
         composite -dissolve 50% -gravity South -geometry +0+3 "$marca_de_agua_redimensionada" "$IMAGEN" "$DIRECTORIO_SALIDA/${nombre_imagen%.*}_wm.jpg"
         
-        # llamada script de Python para determinar el color (blanco o negro)
-        color=$(python /home/antix1/src/Python/clasificar_imagen/clasificar_imagen_v3.py "$DIRECTORIO_IMAGENES$nombre_imagen")
-        
-        # Imprimir el resultado capturado
-        echo "Resultado: $color"
-        
         # Eliminar el archivo temporal de la marca de agua redimensionada
         rm "$marca_de_agua_redimensionada"
         
