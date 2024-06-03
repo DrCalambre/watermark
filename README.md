@@ -21,3 +21,4 @@ Best regards
 ;)
 
 
+<a rel="me" href="https://mastodon.social/@drcalambre">Mastodon</a>
