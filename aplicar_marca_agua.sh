@@ -118,9 +118,17 @@ tiempo_inicio=$(date +%s)
 
 # Aplicar marca de agua a cada imagen en el directorio
 for IMAGEN in "$DIRECTORIO_IMAGENES"/*; do
-    if [ -f "$IMAGEN" ]; then
+    if [ -f "$IMAGEN" ] && file --mime-type "$IMAGEN" | grep -q -E "image/(png|gif|jpeg|jpg)"; then
         nombre_imagen=$(basename "$IMAGEN")
-        echo "Aplicando marca de agua a $DIRECTORIO_IMAGENES$nombre_imagen -> $DIRECTORIO_SALIDA${nombre_imagen%.*}_wm.jpg"
+        
+        # La expresión ${nombre_imagen##*.} utiliza un mecanismo de expansión de parámetros en el shell 
+        # de Unix para extraer la extensión de un nombre de archivo.
+        # Significa eliminar todo hasta el último punto en el nombre del archivo, y devolver lo que queda.
+        
+        extension_imagen="${nombre_imagen##*.}"
+        
+        echo "Aplicando marca de agua a $DIRECTORIO_IMAGENES$nombre_imagen -> $DIRECTORIO_SALIDA${nombre_imagen%.*}_wm.$extension_imagen"
+        #echo "Aplicando marca de agua a $DIRECTORIO_IMAGENES/$nombre_imagen -> $DIRECTORIO_SALIDA/${nombre_imagen%.*}_wm.$extension_imagen"
         
         # Obtener el tamaño de la imagen (ancho x altura)
         tamano_imagen=$(identify -format "%wx%h" "$IMAGEN")
@@ -137,7 +145,7 @@ for IMAGEN in "$DIRECTORIO_IMAGENES"/*; do
         convert "$MARCA_DE_AGUA" -resize "${tamano_marca}x${tamano_marca}" -strip "$marca_de_agua_redimensionada"
         
         # Aplicar marca de agua al pie de la imagen con margen inferior centrado
-        composite -dissolve 50% -gravity South -geometry +0+3 "$marca_de_agua_redimensionada" "$IMAGEN" "$DIRECTORIO_SALIDA/${nombre_imagen%.*}_wm.jpg"
+        composite -dissolve 50% -gravity South -geometry +0+3 "$marca_de_agua_redimensionada" "$IMAGEN" "$DIRECTORIO_SALIDA/${nombre_imagen%.*}_wm.$extension_imagen"
         
         # Eliminar el archivo temporal de la marca de agua redimensionada
         rm "$marca_de_agua_redimensionada"
