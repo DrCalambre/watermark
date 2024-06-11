@@ -13,13 +13,6 @@ Finally, apply the watermark to the bottom of each image, with a centered bottom
 With this automated process, you can protect your images efficiently and reliably, keeping your work safe and secure at all times.
 
 
-More info: https://drcalambre.blogspot.com/2024/05/protege-tus-fotos-con-facilidad-como.html
-
-Although my blog is in Spanish, there is a language translator for a better understanding. 
-
-Best regards 
-;)
-
 * * *
 # **Update in 10/06/24**
 ### Bash Script: `aplicar_marca_agua.sh`
@@ -90,5 +83,13 @@ This script loads an image and defines the bottom region of the image. It perfor
 ---
 
 These scripts provide a convenient solution for batch watermarking images with customizable options for watermark color and size.
+- - -
+- - -
+- - -
 
-<a rel="me" href="https://mastodon.social/@drcalambre">Mastodon</a>
+More info: https://drcalambre.blogspot.com/2024/06/automatizacion-de-marcas-de-agua-en.html
+
+Although my blog is in Spanish, there is a language translator for a better understanding. 
+
+Best regards 
+;)
