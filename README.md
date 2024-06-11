@@ -96,8 +96,10 @@ Although my blog is in Spanish, there is a language translator for a better unde
 Best regards 
 ;)
 
-#### Examples:
+* * *
+#### Some examples of images after being stamped with watermarks:
 
+![watermarks to your images](examples/20201016_151715_wm.jpg)
 ![watermarks to your images](examples/20231014_135226_wm.jpg)
 ![watermarks to your images](examples/20231014_173613_wm.jpg)
 ![watermarks to your images](examples/20231014_194741_wm.jpg)
