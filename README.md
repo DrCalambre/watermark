@@ -95,3 +95,20 @@ Although my blog is in Spanish, there is a language translator for a better unde
 
 Best regards 
 ;)
+
+#### Examples:
+
+![watermarks to your images](examples/20231014_135226_wm.jpg)
+![watermarks to your images](examples/20231014_173613_wm.jpg)
+![watermarks to your images](examples/20231014_194741_wm.jpg)
+![watermarks to your images](examples/20231014_194826_wm.jpg)
+![watermarks to your images](examples/20231015_111708_wm.jpg)
+![watermarks to your images](examples/20231016_085826_wm.jpg)
+![watermarks to your images](examples/20231016_102120_wm.jpg)
+![watermarks to your images](examples/20231016_151715_wm.jpg)
+
+
+
+
+
+
