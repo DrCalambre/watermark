@@ -72,9 +72,12 @@ clasificar_imagen_v5.py <image_path> <scale_factor>
 #### Description:
 
 This script loads an image and defines the bottom region of the image. It performs color-based segmentation in the bottom region and calculates the average luminosity of the bottom region.
-
+imagemagick
 #### Dependencies:
-
+- **Imagemagick**: software suite for manipulating and editing images.
+  - Install using: `sudo apt-get install imagemagick`
+- **bc**: is a Unix-like arbitrary precision calculator.
+  - Install using: `sudo apt-get install bc`
 - **OpenCV (`cv2`)**: A popular open-source library designed for computer vision and image processing.
   - Install using: `sudo apt-get install python3-opencv`
 - **NumPy**: Fundamental library in Python for scientific and numerical computing. It is used to calculate statistics such as mean and standard deviation of luminosity for color detection in the bottom region of the image.
@@ -83,8 +86,7 @@ This script loads an image and defines the bottom region of the image. It perfor
 ---
 
 These scripts provide a convenient solution for batch watermarking images with customizable options for watermark color and size.
-- - -
-- - -
+
 - - -
 
 More info: https://drcalambre.blogspot.com/2024/06/automatizacion-de-marcas-de-agua-en.html
