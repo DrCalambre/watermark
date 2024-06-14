@@ -155,7 +155,7 @@ for IMAGEN in "$DIRECTORIO_IMAGENES"/*; do
         tamano_marca=$(echo "$ancho_imagen * $FACTOR_ESCALA" | bc)
         
         # Llamada al script de Python para determinar el color (blanco o negro)
-        resultados=$(python "$SCRIPT_PATH" "$DIRECTORIO_IMAGENES$nombre_imagen" "$FACTOR_ESCALA")
+        resultados=$(python "$SCRIPT_PATH" "$DIRECTORIO_IMAGENES/$nombre_imagen" "$FACTOR_ESCALA")
         
         # Imprimir los resultados
         
