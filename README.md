@@ -83,6 +83,12 @@ imagemagick
 - **NumPy**: Fundamental library in Python for scientific and numerical computing. It is used to calculate statistics such as mean and standard deviation of luminosity for color detection in the bottom region of the image.
   - Install using: `sudo apt-get install python3-numpy`
 
+* * *
+# **Update in 14/06/2024**
+
+"Watermark" reaches v1.0 status. 
+https://github.com/DrCalambre/watermark/releases/tag/v1.0
+
 ---
 
 These scripts provide a convenient solution for batch watermarking images with customizable options for watermark color and size.
