@@ -107,12 +107,13 @@ Uses **YAD (Yet Another Dialog)**
 
 ```bash
 aplicar_marca_agua.sh
-
+```
 1. **Install Dependencies**:
    Ensure `ImageMagick` and **YAD** are installed on your system.
 
    ```bash
    sudo apt-get install imagemagick yad
+```
 
 * * *
 
