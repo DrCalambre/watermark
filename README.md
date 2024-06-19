@@ -140,6 +140,8 @@ aplicar_marca_agua.sh
 ![watermarks to your images](examples/screenshot_YAD_04.jpg)
 ![watermarks to your images](examples/screenshot_YAD_05.jpg)
 ![watermarks to your images](examples/screenshot_YAD_06.jpg)
+* * *
+# *screen to enter the scaling factor that determines the size of the watermark to apply*
 ![watermarks to your images](examples/screenshot_YAD_07.jpg)
 * * *
 # **screen with the summary of chosen options**
