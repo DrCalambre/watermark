@@ -135,10 +135,18 @@ aplicar_marca_agua.sh
 
 
 ![watermarks to your images](examples/screenshot_YAD_01.jpg)
+_ _ _
+###### Welcome dialog YAD
 ![watermarks to your images](examples/screenshot_YAD_02.jpg)
+_ _ _
+###### Dialog to select the white and black watermarks in png format (previously created with a graphic editor such as GIMP)
 ![watermarks to your images](examples/screenshot_YAD_03.jpg)
 ![watermarks to your images](examples/screenshot_YAD_04.jpg)
+_ _ _
+###### Dialog to select the folder containing the images to process
 ![watermarks to your images](examples/screenshot_YAD_05.jpg)
+_ _ _
+###### Dialog to select the destination folder where the new images are placed with their corresponding watermark (white or black)
 ![watermarks to your images](examples/screenshot_YAD_06.jpg)
 _ _ _
 ###### screen to enter the scaling factor that determines the size of the watermark to apply
