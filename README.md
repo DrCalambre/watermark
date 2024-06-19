@@ -139,6 +139,9 @@ _ _ _
 ![watermarks to your images](examples/screenshot_YAD_02.jpg)
 _ _ _
 ###### Dialog to select the white and black watermarks in png format (previously created with a graphic editor such as GIMP)
+###### There is an entry about this on my blog. 
+###### https://drcalambre.blogspot.com/2024/05/como-crear-una-marca-de-agua-con-gimp.html
+######
 ![watermarks to your images](examples/screenshot_YAD_03.jpg)
 ![watermarks to your images](examples/screenshot_YAD_04.jpg)
 _ _ _
