@@ -103,31 +103,36 @@ Uses **YAD (Yet Another Dialog)**
 5. **Image Processing**: Processes each image, determines the appropriate watermark color using a Python script, resizes the watermark, and applies it to the image.
 6. **Progress and Summary**: Displays a progress bar and a summary of the process using **YAD**.
 
-#### Usage:
+### ====Usage:====
 
 ```bash
 aplicar_marca_agua.sh
 ```
 1. **Install Dependencies**:
-   Ensure `ImageMagick` and **YAD** are installed on your system.
+   Ensure `ImageMagick` and `yad` are installed on your system.
+  - Install using: 
 
-   ```bash
+```bash
    sudo apt-get install imagemagick yad
 ```
+2.- **bc**: is a Unix-like arbitrary precision calculator.
 
-* * *
-
-#### Dependencies:
-- **Imagemagick**: software suite for manipulating and editing images.
-  - Install using: `sudo apt-get install imagemagick`
-- **bc**: is a Unix-like arbitrary precision calculator.
-  - Install using: `sudo apt-get install bc`
-- **OpenCV (`cv2`)**: A popular open-source library designed for computer vision and image processing.
-  - Install using: `sudo apt-get install python3-opencv`
-- **NumPy**: Fundamental library in Python for scientific and numerical computing. It is used to calculate statistics such as mean and standard deviation of luminosity for color detection in the bottom region of the image.
-  - Install using: `sudo apt-get install python3-numpy`
+```bash
+  sudo apt-get install bc
+```
+3.- **OpenCV (`cv2`)**: A popular open-source library designed for computer vision and image processing.
+  - Install using: 
+```bash
+  sudo apt-get install python3-opencv
+```
+4.- **NumPy**: Fundamental library in Python for scientific and numerical computing. It is used to calculate statistics such as mean and standard deviation of luminosity for color detection in the bottom region of the image.
+  - Install using: 
+```bash
+  sudo apt-get install python3-numpy
+```
   
 ### screenshot YAD:
+
 
 ![watermarks to your images](examples/screenshot_YAD_01.jpg)
 ![watermarks to your images](examples/screenshot_YAD_02.jpg)
