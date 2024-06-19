@@ -154,7 +154,6 @@ _ _ _
 _ _ _
 ###### screen with the summary of chosen options
 ![watermarks to your images](examples/screenshot_YAD_08.jpg)
-
 ![watermarks to your images](examples/screenshot_YAD_09.jpg)
 ![watermarks to your images](examples/screenshot_YAD_10.jpg)
 ![watermarks to your images](examples/screenshot_YAD_11.jpg)
