@@ -141,6 +141,7 @@ aplicar_marca_agua.sh
 ![watermarks to your images](examples/screenshot_YAD_05.jpg)
 ![watermarks to your images](examples/screenshot_YAD_06.jpg)
 ![watermarks to your images](examples/screenshot_YAD_07.jpg)
+#screen with the summary of chosen options
 ![watermarks to your images](examples/screenshot_YAD_08.jpg)
 ![watermarks to your images](examples/screenshot_YAD_09.jpg)
 ![watermarks to your images](examples/screenshot_YAD_10.jpg)
