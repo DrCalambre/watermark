@@ -131,9 +131,8 @@ aplicar_marca_agua.sh
   sudo apt-get install python3-numpy
 ```
   
-### screenshot YAD:
-
-
+_ _ _
+###### script call from a terminal
 ![watermarks to your images](examples/screenshot_YAD_01.jpg)
 _ _ _
 ###### Welcome dialog YAD
