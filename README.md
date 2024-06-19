@@ -154,9 +154,17 @@ _ _ _
 _ _ _
 ###### screen with the summary of chosen options
 ![watermarks to your images](examples/screenshot_YAD_08.jpg)
+_ _ _
+###### This dialog shows the progress of the processes
 ![watermarks to your images](examples/screenshot_YAD_10.jpg)
+_ _ _
+###### shows a summary with the time the process took
 ![watermarks to your images](examples/screenshot_YAD_11.jpg)
+_ _ _
+###### And finally it shows a summary with the files, the luminosity and the color of the watermark based on its luminosity
 ![watermarks to your images](examples/screenshot_YAD_12.jpg)
+_ _ _
+###### One of the processed images and its corresponding watermark based on its luminosity
 ![watermarks to your images](examples/screenshot_YAD_13.jpg)
 
 
