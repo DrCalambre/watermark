@@ -89,6 +89,59 @@ imagemagick
 "Watermark" reaches v1.0 status. 
 https://github.com/DrCalambre/watermark/releases/tag/v1.0
 
+* * *
+# **Update in 19/06/2024**
+
+Uses **YAD (Yet Another Dialog)**
+
+### Features
+
+1. **ImageMagick Command Verification**: Ensures that `identify`, `convert`, and `composite` commands from ImageMagick are available.
+2. **Script and Image Paths**: Determines the script's directory and sets paths for a required Python script and a default image.
+3. **File Existence Checks**: Verifies the existence of necessary files before proceeding.
+4. **User Input Prompts**: Uses **YAD (Yet Another Dialog)** dialogs to prompt the user to select watermark images, input and output directories, and a scaling factor.
+5. **Image Processing**: Processes each image, determines the appropriate watermark color using a Python script, resizes the watermark, and applies it to the image.
+6. **Progress and Summary**: Displays a progress bar and a summary of the process using **YAD**.
+
+#### Usage:
+
+```bash
+aplicar_marca_agua.sh
+
+1. **Install Dependencies**:
+   Ensure `ImageMagick` and **YAD** are installed on your system.
+
+   ```bash
+   sudo apt-get install imagemagick yad
+
+* * *
+
+#### Dependencies:
+- **Imagemagick**: software suite for manipulating and editing images.
+  - Install using: `sudo apt-get install imagemagick`
+- **bc**: is a Unix-like arbitrary precision calculator.
+  - Install using: `sudo apt-get install bc`
+- **OpenCV (`cv2`)**: A popular open-source library designed for computer vision and image processing.
+  - Install using: `sudo apt-get install python3-opencv`
+- **NumPy**: Fundamental library in Python for scientific and numerical computing. It is used to calculate statistics such as mean and standard deviation of luminosity for color detection in the bottom region of the image.
+  - Install using: `sudo apt-get install python3-numpy`
+  
+### screenshot YAD:
+
+![watermarks to your images](examples/screenshot_YAD_01.jpg)
+![watermarks to your images](examples/screenshot_YAD_02.jpg)
+![watermarks to your images](examples/screenshot_YAD_03.jpg)
+![watermarks to your images](examples/screenshot_YAD_04.jpg)
+![watermarks to your images](examples/screenshot_YAD_05.jpg)
+![watermarks to your images](examples/screenshot_YAD_06.jpg)
+![watermarks to your images](examples/screenshot_YAD_07.jpg)
+![watermarks to your images](examples/screenshot_YAD_08.jpg)
+![watermarks to your images](examples/screenshot_YAD_09.jpg)
+![watermarks to your images](examples/screenshot_YAD_10.jpg)
+![watermarks to your images](examples/screenshot_YAD_11.jpg)
+![watermarks to your images](examples/screenshot_YAD_12.jpg)
+![watermarks to your images](examples/screenshot_YAD_13.jpg)
+
 ---
 
 These scripts provide a convenient solution for batch watermarking images with customizable options for watermark color and size.
