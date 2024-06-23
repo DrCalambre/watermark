@@ -92,7 +92,11 @@ https://github.com/DrCalambre/watermark/releases/tag/v1.0
 * * *
 # **Update in 19/06/2024**
 
+"Watermark" reaches v1.1.0 status. 
+https://github.com/DrCalambre/watermark/releases/tag/v1.1.0
+
 Uses **YAD (Yet Another Dialog)**
+
 
 ### Features
 
